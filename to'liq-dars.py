@@ -5,13 +5,17 @@ Created on Wed Nov  9 08:26:18 2022
 @author: User
 """
 
+# download postgresql
+# pip install psycopg2
+
 import psycopg2
 import psycopg2.extras
+
 
 hostname='localhost'
 database='baza'
 username='postgres'
-pwd='1'
+pwd='parolingiz'
 port_id=5432
 
 conn=None
